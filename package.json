@@ -2,7 +2,7 @@
   "name": "web-servers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.hbs",
   "scripts": {
     "start": "app.js",
     "dev": "nodemon app.js"
