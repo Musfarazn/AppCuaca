@@ -2,10 +2,10 @@
   "name": "web-servers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.hbs",
+  "main": "index.js",
   "scripts": {
-    "start": "app.js",
-    "dev": "nodemon app.js"
+    "start": "node src/app.js",
+    "dev" : "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,6 @@
     "firebase-admin": "^11.11.0",
     "firebase-functions": "^4.4.1",
     "hbs": "^4.2.0",
-    "nodemon": "^3.0.1",
     "postman-request": "^2.88.1-postman.33"
   }
 }
