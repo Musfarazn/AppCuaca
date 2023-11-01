@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Berita</title>
+    <link rel="icon" href="/img/cuaca.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>  
+<body2>
+    <div class="main-content">
+        {{>header}}
+        <h2>{{judul}}</h2>
+        <div class="isian-bawah">
+            <div class="biodata-pendidikan">
+                <div class="berita-list">
+                    {{#each berita}}
+                    <div class="berita-item">
+                        <img src="{{image}}" alt="{{title}}" class="centered-image" style="width: 100%; max-height: 180px;" />
+                        <h3>{{title}}</h3>
+                        <p>{{description}}</p>
+                        <a href="{{url}}" target="_blank">Baca selengkapnya</a>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body2>
+
+</html>

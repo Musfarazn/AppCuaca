@@ -1,0 +1,173 @@
+/*before styling*/
+
+/* h1 {
+    color: grey;
+}
+
+img{
+    width: 250px;
+} */
+
+/*after styling*/
+body{
+    color: #333333;
+    font-family: Arial;
+    max-width: 6500px;
+    background-image: url('/img/latar.jpg') ;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.main-content{
+    flex-grow: 1;
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+    text-align: center;
+    font-style: oblique;
+}
+
+footer{
+    color: #888888;
+    border-top: 2px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    text-align: center;
+    width: 890px;
+    margin-left: 230px;
+    background-color: #e0e0e0;
+}
+
+header{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-image: url('/img/cuaca.jpg');
+    width: 800px;
+    padding: 40px;
+    margin-left: -40px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait{
+    width: 250px;
+    border-radius: 50%;
+}
+
+input{
+    border: 2px solid #cccccc;
+    padding: 15px;
+}
+
+button {
+    cursor: pointer;
+    border: 0px solid #cccccc;
+    background: #888888;
+    color: white;
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.list-pertanyaan{
+    padding: 50px;
+    font-style: oblique;
+
+}
+/* cv */
+
+h5 {
+    text-align: center;
+    font-size: x-large;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #333;
+}
+.section p {
+    line-height: 1.6;
+}
+
+/* berita */
+
+
+h2 {
+    color: #333;
+}
+
+.berita-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.berita-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* bantuan */
+
+
+        .main-content {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
